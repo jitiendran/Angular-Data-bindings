@@ -23,4 +23,13 @@ body{
         font-size: 1.3em;
         cursor: pointer;
     }
+    h3{
+        padding: .5em;
+        border-radius: .3em;
+    }
+    .online{
+        h3{
+            color: white;
+        }
+    }
 }

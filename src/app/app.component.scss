@@ -7,18 +7,19 @@
 body{
     font-family: 'Montserrat',sans-serif;
     header{
-        text-align: center;
-        padding: 1em 10em;
+        padding: 1em 2em;
         .content{
             display: flex;
             flex-direction: row;
-            align-items: center;
-            justify-content: center;
+            align-items: center;    
             h1{
                 padding: .5em;
                 span{
                     color: coral;
                 }
+            }
+            i{
+                font-size: 2.2em;
             }
         }
         hr{
