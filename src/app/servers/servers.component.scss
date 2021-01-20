@@ -1,0 +1,26 @@
+body{
+    padding: 2em;
+    label{
+        font-size: 1.3em;
+        margin-right: 1em;
+        font-weight: 500;
+    }
+    input{
+        padding: .3em;
+        font-size: 1.3em;
+        border: 2px solid cornflowerblue;
+        outline: none;
+        border-radius: .3em;
+    }
+    button{
+        float: right;
+        text-align: center;
+        background: cornflowerblue;
+        border: none;
+        outline: none;
+        border-radius: .3em;
+        padding: .5em;
+        font-size: 1.3em;
+        cursor: pointer;
+    }
+}
