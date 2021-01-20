@@ -1,4 +1,15 @@
-# AngularTest3
+# Angular Data-bindings and Directives
+
+## Data-Bindings:
+* String interpolation
+* Property Binding
+* Event Binding
+* Two-way Binding
+
+## Directives:
+* *ngIf
+* [ngClass]
+* [ngStyle]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
