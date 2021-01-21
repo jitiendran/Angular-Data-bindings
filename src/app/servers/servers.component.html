@@ -20,7 +20,9 @@
     <ng-template #noServer>
         <h3 [ngStyle]="{ backgroundColor: '#fcaea6', border: '3px solid red'}">No server is Created!</h3>
     </ng-template>
-    <app-server></app-server>
+    <div *ngFor = "let server of servers">
+        <app-server></app-server>
+    </div>
     <app-footers></app-footers>
 </body>
 </html>

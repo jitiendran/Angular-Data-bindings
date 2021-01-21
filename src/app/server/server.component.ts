@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 @Component({
     selector: 'app-server',
     templateUrl: './server.component.html',
     styleUrls: ['./server.component.scss']
 })
-export class ServerComponent{
-    textname:string = 'Two-Way Data binding'
+export class ServerComponent implements OnInit{
+    ngOnInit(): void{
 
+    }
 }
